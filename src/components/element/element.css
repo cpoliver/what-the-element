@@ -1,11 +1,11 @@
 .element {
+  background: white;
   border: 0.5rem solid black;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   height: 10rem;
   margin: 0 auto;
-  positon: relative;
   width: 10rem;
 }
 

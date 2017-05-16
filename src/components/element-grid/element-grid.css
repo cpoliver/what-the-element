@@ -1,0 +1,12 @@
+.element-grid {
+  justify-content: center;
+  background: #61DAFB;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  padding-top: 1rem;
+}
+
+.element-grid>.element {
+  margin: 0.5rem;
+}
