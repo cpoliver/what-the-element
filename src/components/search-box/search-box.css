@@ -1,0 +1,32 @@
+.search-box {
+  padding: 2rem 0;
+}
+
+.search-box>input {
+  border: 0;
+  border-bottom: 0.2rem solid black;
+  font-size: 2rem;
+  outline: none;
+  text-align: center;
+  width: 50%;
+}
+
+/* NOTE: do not group these rules */
+.search-box>input::-webkit-input-placeholder {
+    color: #ddd;
+}
+
+.search-box>input:-moz-placeholder {
+    /* FF 4-18 */
+    color: #ddd;
+}
+
+.search-box>input::-moz-placeholder {
+    /* FF 19+ */
+    color: #ddd;
+}
+
+.search-box>input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ddd;
+}
