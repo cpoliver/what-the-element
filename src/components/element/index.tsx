@@ -2,14 +2,14 @@ import * as React from 'react';
 
 import './element.css';
 
-type Props = {
+export type ElementType = {
   name: string,
   symbol: string,
   atomicNumber: number,
   atomicMass: number
 };
 
-const Element: React.StatelessComponent<Props> = ({ name, symbol, atomicNumber, atomicMass }) => (
+export const Element: React.StatelessComponent<ElementType> = ({ name, symbol, atomicNumber, atomicMass }) => (
   <div className="element">
     <span className="element__number">{atomicNumber}</span>
     <span className="element__symbol">{symbol}</span>
@@ -17,5 +17,3 @@ const Element: React.StatelessComponent<Props> = ({ name, symbol, atomicNumber, 
     <span className="element__mass">{atomicMass}</span>
   </div>
 );
-
-export default Element;

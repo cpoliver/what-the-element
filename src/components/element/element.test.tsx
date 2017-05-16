@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
 
-import Element from './index';
+import { Element } from './index';
 
 const props = {
   name: 'Hydrogen',
