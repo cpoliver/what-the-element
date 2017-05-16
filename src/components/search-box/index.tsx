@@ -9,7 +9,7 @@ export type SearchBoxType = {
 
 export const SearchBox: React.StatelessComponent<SearchBoxType> = ({ text = '', onChangeHandler }) => (
   <div className="search-box">
-    <input placeholder="search"
-           onChange={(e: React.FormEvent<HTMLInputElement>): void => onChangeHandler(e)} />
+    <input autoFocus
+           onChange={(e: React.FormEvent<HTMLInputElement>): void => onChangeHandler(e)}/>
   </div>
 );

@@ -1,14 +1,18 @@
 .search-box {
+  background: #61DAFB;
+  margin: 2rem 0;
   padding: 2rem 0;
 }
 
 .search-box>input {
+  background: none;
   border: 0;
   border-bottom: 0.2rem solid black;
-  font-size: 2rem;
+  color: #333;
+  font-size: 1.5rem;
   outline: none;
   text-align: center;
-  width: 50%;
+  width: 20rem;
 }
 
 /* NOTE: do not group these rules */

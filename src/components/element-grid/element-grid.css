@@ -1,6 +1,5 @@
 .element-grid {
   justify-content: center;
-  background: #61DAFB;
   display: flex;
   flex-wrap: wrap;
   margin: 2rem 0;
