@@ -1,6 +1,6 @@
 .element {
   background: white;
-  border: 0.5rem solid black;
+  border: 0.4rem solid black;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,9 @@
 }
 
 .element__number {
+  font-size: 1.25rem;
   font-weight: bold;
+  height: 1rem;
   margin: 0.5rem;
   text-align: right;
 }
@@ -24,6 +26,6 @@
   margin: 0.25rem 0;
 }
 
-.element__category {
-  display: none;
+.element__mass {
+  color: #aaa;
 }

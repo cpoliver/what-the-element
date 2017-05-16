@@ -12,7 +12,7 @@ class App extends React.Component<{}, null> {
       <div className="app">
         <img src={logo} className="app-logo" alt="logo" />
         <h2 className="title">What the Element?</h2>
-        <span className="subtitle">a typescript demo app</span>
+        <span className="subtitle">testing typescript with create-react-app&hellip; for science!</span>
         <ElementGrid elements={pt.all()} />
       </div>
     );
